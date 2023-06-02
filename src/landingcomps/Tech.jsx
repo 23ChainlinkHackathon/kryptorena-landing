@@ -8,7 +8,7 @@ import Sea from '../img/sea.png'
 
 const Tech = () => {
   return (
-    <div className=" h-[900px] xsm:bg-[url('./img/techmob1.png')] lg:bg-[url('./)] lg:flex-row bg-cover xsm:flex-col flex items-center gap-3 justify-center">
+    <div className=" h-[900px] xsm:bg-[url('./img/techmob1.png')] lg:bg-[url('./)] lg:flex-row bg-cover xsm:flex-col flex items-center gap-4 justify-center">
 
       <h1 className=" relative lg:text-[48px] xsm:text-[32px] self-stretch text-[#F4DDB6] drop-shadow-[0_4px_16px_rgba(228,172,78,0.6)]">Technologies Used</h1>
       
