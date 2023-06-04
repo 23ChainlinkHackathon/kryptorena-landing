@@ -1,16 +1,9 @@
-import Nav from './landingcomps/Nav';
-import Hero from './landingcomps/Hero';
-import About from './landingcomps/About';
-import How from './landingcomps/How';
-import Tech from './landingcomps/Tech';
-import Team from './landingcomps/Team';
-import Faq from './landingcomps/Faq';
-import Fray from './landingcomps/Fray';
+import {Nav, Hero,About, How, Tech, Team, Faq, Fray, Footer} from './landingcomps/Components'
 import './App.css';
 
 function App() {
   return (
-    <div className="App xsm:overflow-hidden">
+    <div className="App overflow-hidden">
       <Nav />
       <Hero />
       <About />
@@ -19,6 +12,7 @@ function App() {
       <Team />
       <Faq />
       <Fray />
+      <Footer />
     </div>
   );
 }

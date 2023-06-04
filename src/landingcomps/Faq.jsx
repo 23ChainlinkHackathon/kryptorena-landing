@@ -9,28 +9,35 @@ const Faq = (props) => {
   }
 
   const questions = [
+    "",
     "Question text goes here",
     "Question text goes here",
     "Question text goes here",
     "Question text goes here",
-    "Question text goes here"
+    "Question text goes here",
+    ""
   ];
 
   const answers = [
+    "",
     "Answer here",
-    "Answer herekldfhdsjlfhsdjlfhdsjfhdsjfhlkdsjfgkdsgfhdsjlkf;dsjfldjsgfhdsjfldsk;lfl;sdkjfdshgfjlkds;",
+    "Answer here fsdghjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjg",
     "Answer here",
     "Answer here",
-    "Answer here"
+    "Answer here",
+    ""
   ];
 
   return (
-    <div className="xsm:bg-[url('./img/mobfaq.png')] bg-cover max-h-[1200px] min-h-[500px] flex flex-col gap-5 justify-center items-center">
-            <h1 className=" relative lg:text-[48px] xsm:text-[32px] self-stretch text-[#F4DDB6] drop-shadow-[0_4px_16px_rgba(228,172,78,0.6)]">Frequently Asked Questions</h1>
-      <ul className="xsm:text-[24px] text-white divide-y divide-[#DFC28E]">
+    <div className="w-screen overflow-hidden xsm:bg-[url('./img/mobfaq.png')] justify-center xl:h-[790px] xl:bg-[url('./img/faqxl.png')] md:bg-[url('./img/faqmd.png')] md:h-[450px] bg-cover max-h-[1200px] min-h-[500px] flex flex-col gap-5 ">
+        <h1 className=" relative lg:text-[48px] xsm:text-[32px] self-stretch lg:text-left lg:left-[70px] lg:w-[380px] text-[#F4DDB6] drop-shadow-[0_4px_16px_rgba(228,172,78,0.6)]">Frequently Asked Questions</h1>
+      <div className=" flex justify-center items-center relative md:top-[50px]">
+      <ul className="xsm:text-[24px] text-white  divide-[#DFC28E] lg:w-[900px] xl:w-[1212px] divide-y-[1px] justify-center items-center ">
         {questions.map((question, index) => (
-          <li key={index} className="flex items-center justify-center xsm:w-[300px] gap-3">
-            <div>
+          
+          <div className=''>
+            <li key={index} className="flex items-center justify-center xsm:w-[300px] gap-7">
+            <div className=" ">
               <p key={index} className="xsm:text-[24px] text-white divide-y divide-[#DFC28E]">{question}</p>
               {view === index && (
                 <div key={index} className="max-w-[300px] max-h-[200px] overflow-hidden">
@@ -48,14 +55,17 @@ const Faq = (props) => {
               onClick={() => toggleAnswer(index)}
               src={Qopen}
               alt="view"
-              className={`${view === index ? 'hidden' : 'visible'} xsm:h-[10px] xsm:w-[15px]`}
+              className={` ${question === ""? "hidden":"" } lg:relative xl:left-[900px] lg:left-[600px] ${view === index ? 'hidden' : 'visible'} xsm:h-[10px] xsm:w-[15px]`}
             ></img>
             {view === index && (
-              <button onClick={() => toggleAnswer(index)} className="visible">X</button>
+              <button onClick={() => toggleAnswer(index)} className="lg:relative lg:left-[600px] visible">X</button>
             )}
           </li>
+          </div>
         ))}
       </ul>
+      </div>
+     
     </div>
   );
 }
