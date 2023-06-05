@@ -29,8 +29,8 @@ const Faq = (props) => {
   ];
 
   return (
-    <div className="w-screen overflow-hidden xsm:bg-[url('./img/mobfaq.png')] justify-center xl:h-[790px] xl:bg-[url('./img/faqxl.png')] md:bg-[url('./img/faqmd.png')] md:h-[450px] bg-cover max-h-[1200px] min-h-[500px] flex flex-col gap-5 ">
-        <h1 className=" relative lg:text-[48px] xsm:text-[32px] self-stretch lg:text-left lg:left-[70px] lg:w-[380px] text-[#F4DDB6] drop-shadow-[0_4px_16px_rgba(228,172,78,0.6)]">Frequently Asked Questions</h1>
+    <div id="faq" className="w-screen overflow-hidden xsm:bg-[url('./img/mobfaq.png')] justify-center xl:h-[790px] xl:bg-[url('./img/faqxl.png')] md:bg-[url('./img/faqmd.png')] md:h-[450px] bg-cover max-h-[1200px] min-h-[500px] flex flex-col gap-5 ">
+        <h1 className=" header relative lg:text-[48px] xsm:text-[32px] self-stretch lg:text-left lg:left-[70px] lg:w-[380px] text-[#F4DDB6] drop-shadow-[0_4px_16px_rgba(228,172,78,0.6)]">Frequently Asked Questions</h1>
       <div className=" flex justify-center items-center relative md:top-[50px]">
       <ul className="xsm:text-[24px] text-white  divide-[#DFC28E] lg:w-[900px] xl:w-[1212px] divide-y-[1px] justify-center items-center ">
         {questions.map((question, index) => (
