@@ -18,7 +18,7 @@ const Nav = () => {
           </ul>
         </div>
         
-        <button className="bg-[#514633] lg:left-[300px] text-[16px] xl:left-[1100px]  xsm:ml-[-250px] xsm:left-[-20px] h-[45px] ring-1 ring-[#BBA278] rounded-[8px] text-[#DFC28E] relative xsm:w-[250px] md:left-[130px] md:w-[137px] md:h-[47px] flex items-center justify-center">
+        <button className="bg-[#514633] lg:left-[300px] text-[16px] xl:left-[760px]  xsm:ml-[-250px] xsm:left-[-20px] h-[45px] ring-1 ring-[#BBA278] rounded-[8px] text-[#DFC28E] relative xsm:w-[250px] md:left-[130px] md:w-[137px] md:h-[47px] flex items-center justify-center">
   <p className="text-center">Play Game</p>
 </button>
 
