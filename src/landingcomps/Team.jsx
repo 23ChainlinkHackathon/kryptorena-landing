@@ -19,7 +19,7 @@ const Team = () => {
               <img className=" relative md:h-[395px] lg:w-[320px] lg:h-[320px] md:w-[395px] xsm:w-[295px] xsm:h-[295px] " src={Balendu} alt=""></img>
               <h1 className="text-[24px] text-[#F4DDB6]">Balendu</h1>
               <p className="text-[#F4DDB6] text-[18px]">Job title</p>
-              <p className='text-white text-left lg:w-[320px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+              <p className='text-white text-left lg:w-[320px]'>Lorem ipsum dolor sit amet, consectetur adipiscing efdlit. Suspendisse varius enim in eros elementum tristique.</p>
               <div className="flex gap-4"> 
                 <img className=" w-[24px]" src={LinkedIn} alt=""></img>
                 <img className="w-[24px]" src={Twitter} alt=""></img>
