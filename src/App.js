@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App overflow-hidden">
+    <div className=" App w-auto overflow-visible">
       <Nav />
       <Hero />
       <About />

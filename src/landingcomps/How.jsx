@@ -7,7 +7,7 @@ import Icemage from '../img/icemage.png'
 
 const How = () => {
   return (
-    <div id="how" className='xsm:h-[1820px] lg:h-[700px] w-screen overflow-hidden  bg-[#181D0C] flex flex-col gap-5'>
+    <div id="how" className='xsm:h-[1820px] lg:h-[700px] w-auto overflow-hidden  bg-[#0F0F0F] flex flex-col gap-5'>
 
       <h1 className=" relative lg:text-[48px] xsm:text-[42px] lg:mt-[30px] md:text-[72px] header self-stretch text-[#F4DDB6] drop-shadow-[0_4px_16px_rgba(228,172,78,0.6)]">How it works</h1>
       <div className="flex lg:flex-row xsm:flex-col gap-10 justify-center items-center text-white"> 
