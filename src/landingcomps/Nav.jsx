@@ -4,7 +4,7 @@ import content from '../img/Content.png';
 
 const Nav = () => {
   return (
-    <div className="header w-auto relative md:text-[24px] xsm:h-[60px] backdrop-blur-[12px] bg-black flex  items-center justify-between">
+    <div className="header lg:w-auto w-screen relative md:text-[24px] xsm:h-[60px] backdrop-blur-[12px] bg-black flex  items-center justify-between">
       <div className="flex gap-7 items-center">
 
           <div className="flex gap-3">

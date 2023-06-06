@@ -9,7 +9,7 @@ import Twitter from '../img/twitter.png'
 
 const Team = () => {
   return (
-    <div id="team" className="bg-[#0F0F0F] w-auto overflow-hidden h-[2800px] xl:h-[1500px] lg:h-[1900px] md:h-[2900px] flex gap-5 flex-col items-center justify-center">
+    <div id="team" className="bg-[#0F0F0F] lg:w-auto w-screen overflow-hidden h-[2800px] xl:h-[1500px] lg:h-[1900px] md:h-[2900px] flex gap-5 flex-col items-center justify-center">
       <h1 className=" relative  top-[20px] md:text-[48px] xsm:text-[32px] header self-stretch text-[#F4DDB6] drop-shadow-[0_4px_16px_rgba(228,172,78,0.6)]"> Our Team</h1>
       <p className='md:text-[24px] xsm:text-[18px] text-white'>We're a global team made up of individuals from around the world!</p>
       <div className="flex flex-col lg:flex-row xl:flex-col lg:gap-10 gap-3 items-center justify-center">
