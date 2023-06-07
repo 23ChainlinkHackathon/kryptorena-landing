@@ -9,7 +9,7 @@ import Twitter from '../img/twitter.png'
 
 const Team = () => {
   return (
-    <div id="team" className="bg-[#0F0F0F] w-auto overflow-hidden h-[2800px] xl:h-[1500px] lg:h-[1900px] md:h-[2900px] flex gap-5 flex-col items-center justify-center">
+    <div id="team" className="bg-[#0F0F0F] lg:w-auto w-screen overflow-hidden h-[2800px] xl:h-[1500px] lg:h-[1900px] md:h-[2900px] flex gap-5 flex-col items-center justify-center">
       <h1 className=" relative  top-[20px] md:text-[48px] xsm:text-[32px] header self-stretch text-[#F4DDB6] drop-shadow-[0_4px_16px_rgba(228,172,78,0.6)]"> Our Team</h1>
       <p className='md:text-[24px] xsm:text-[18px] text-white'>We're a global team made up of individuals from around the world!</p>
       <div className="flex flex-col lg:flex-row xl:flex-col lg:gap-10 gap-3 items-center justify-center">
@@ -19,7 +19,7 @@ const Team = () => {
               <img className=" relative md:h-[395px] lg:w-[320px] lg:h-[320px] md:w-[395px] xsm:w-[295px] xsm:h-[295px] " src={Balendu} alt=""></img>
               <h1 className="text-[24px] text-[#F4DDB6]">Balendu</h1>
               <p className="text-[#F4DDB6] text-[18px]">Job title</p>
-              <p className='text-white text-left lg:w-[320px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+              <p className='text-white text-left lg:w-[320px]'>Lorem ipsum dolor sit amet, consectetur adipiscing efdlit. Suspendisse varius enim in eros elementum tristique.</p>
               <div className="flex gap-4"> 
                 <img className=" w-[24px]" src={LinkedIn} alt=""></img>
                 <img className="w-[24px]" src={Twitter} alt=""></img>
