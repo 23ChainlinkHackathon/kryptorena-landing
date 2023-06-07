@@ -3,6 +3,7 @@ import Roberto from '../img/roberto.png'
 import Eric from '../img/eric.png'
 import Frank from '../img/frank.png'
 import Balendu from '../img/balendu.png'
+import Dan from '../img/dan.png'
 import LinkedIn from '../img/linkedin.png'
 import Twitter from '../img/twitter.png'
 
@@ -15,33 +16,33 @@ const Team = () => {
       <div className="flex flex-col lg:flex-row xl:flex-col lg:gap-10 gap-3 items-center justify-center">
           <div className="flex xl:flex-row xl:left-[35px] relative flex-col gap-3 lg:gap-5 items-center justify-center">
 
-            <div className=" relative xsm:h-[510px] lg:h-[564px] xsm:w-[295px] lg:w-[394.67px] bg-blackhyj gap-3 flex xsm:flex-col items-start justify-center">
-              <img className=" relative md:h-[395px] lg:w-[320px] lg:h-[320px] md:w-[395px] xsm:w-[295px] xsm:h-[295px] " src={Balendu} alt=""></img>
+            <div className=" relative xsm:h-[510px] lg:h-[564px] xsm:w-[295px] lg:w-[394.67px] gap-3 flex xsm:flex-col items-start justify-center">
+              <img className=" relative md:h-[395px] lg:w-[280px] lg:h-[280px] md:w-[395px] xsm:w-[295px] xsm:h-[295px] " src={Balendu} alt=""></img>
               <h1 className="text-[24px] text-[#F4DDB6]">Balendu</h1>
-              <p className="text-[#F4DDB6] text-[18px]">Job title</p>
-              <p className='text-white text-left lg:w-[320px]'>Lorem ipsum dolor sit amet, consectetur adipiscing efdlit. Suspendisse varius enim in eros elementum tristique.</p>
+              <p className="text-[#F4DDB6] text-[18px]">Full Stack Developer</p>
+              <p className='text-white text-left lg:w-[280px]'>Young, Passionate, Anime Lover, Gamer.</p>
               <div className="flex gap-4"> 
                 <img className=" w-[24px]" src={LinkedIn} alt=""></img>
                 <img className="w-[24px]" src={Twitter} alt=""></img>
               </div>
 
             </div>
-            <div className=" relative xsm:h-[510px] lg:h-[564px] xsm:w-[295px] lg:w-[394.67px] gap-3 flex xsm:flex-col items-start justify-center">
-              <img className=" lg:w-[320px] lg:h-[320px]  md:h-[395px] md:w-[395px] xsm:w-[295px] xsm:h-[295px] " src={Roberto} alt=""></img>
+            <div className=" relative xsm:h-[510px] lg:h-[564px] xl:pt-[50px] xsm:w-[295px] lg:w-[394.67px] gap-3 flex xsm:flex-col items-start justify-center">
+              <img className=" lg:w-[280px] lg:h-[280px]  md:h-[395px] md:w-[395px] xsm:w-[295px] xsm:h-[295px] " src={Roberto} alt=""></img>
                 <h1 className="text-[24px] text-[#F4DDB6]">Roberto</h1>
                 <p className="text-[#F4DDB6] text-[18px]">Chainlink Advocate</p>
-                <p className=' text-white lg:w-[320px] text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                <p className=' text-white lg:w-[300px] text-left'>Experienced Solidity engineer and blockchain enthusiast. Chainlink community advocate, passionate about Web3 and love building products!</p>
                 <div className="flex gap-4"> 
                   <img className=" w-[24px]" src={LinkedIn} alt=""></img>
                   <img className="w-[24px]" src={Twitter} alt=""></img>
                 </div>
             </div>
 
-            <div className=" relative xsm:h-[510px] lg:h-[564px] xsm:w-[295px] lg:w-[394.67px] gap-3 flex xsm:flex-col items-start justify-center">
-                <img className="  lg:w-[320px] lg:h-[320px] md:h-[395px] md:w-[395px] xsm:w-[295px] xsm:h-[295px] " src={Frank} alt=""></img>
+            <div className=" relative xsm:h-[510px] xl:pt-[0px] lg:h-[564px] xsm:w-[295px] lg:w-[394.67px] gap-3 flex xsm:flex-col items-start justify-center">
+                <img className="  lg:w-[280px] lg:h-[280px] md:h-[395px] md:w-[395px] xsm:w-[295px] xsm:h-[295px] " src={Frank} alt=""></img>
                 <h1 className="text-[24px] text-[#F4DDB6]">Frank</h1>
                 <p className="text-[#F4DDB6] text-[18px]">Artist | Chainlink Advocate</p>
-                <p className=' text-white lg:w-[320px] text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                <p className=' text-white lg:w-[320px] text-left'>Founder of Dreamxrs - global artist collective</p>
                 <div className="flex gap-4"> 
                   <img className=" w-[24px]" src={LinkedIn} alt=""></img>
                   <img className="w-[24px]" src={Twitter} alt=""></img>
@@ -52,10 +53,10 @@ const Team = () => {
 
         <div className="flex xl:left-[-180px] relative xl:flex-row flex-col gap-3 items-center justify-center">
           <div className=" relative xsm:h-[510px] lg:h-[564px] xsm:w-[295px] lg:w-[394.67px] gap-3 flex xsm:flex-col items-start justify-center">
-                <img className="  lg:w-[320px] lg:h-[320px] md:h-[395px] md:w-[395px] xsm:w-[295px] xsm:h-[295px] " src={Eric} alt=""></img>
+                <img className="  lg:w-[280px] lg:h-[280px] md:h-[395px] md:w-[395px] xsm:w-[295px] xsm:h-[295px] " src={Eric} alt=""></img>
                 <h1 className="text-[24px] text-[#F4DDB6]">Eric</h1>
-                <p className="text-[#F4DDB6] text-[18px]">Artist | Chainlink Advocate</p>
-                <p className=' text-left lg:w-[320px] text-white'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                <p className="text-[#F4DDB6] text-[18px]">UX Designer</p>
+                <p className=' text-left lg:w-[305px] text-white'>Always learning, always growing. Seeking to delight users with human-centric products that pushes humanity forward.</p>
                 <div className="flex gap-4"> 
                   <img className=" w-[24px]" src={LinkedIn} alt=""></img>
                   <img className="w-[24px]" src={Twitter} alt=""></img>
@@ -63,10 +64,10 @@ const Team = () => {
           </div>
                
           <div className=" relative xsm:h-[510px] lg:h-[564px] xsm:w-[295px] lg:w-[394.67px] gap-3 flex xsm:flex-col items-start justify-center" >
-                <img className=" lg:w-[320px] lg:h-[320px] md:h-[395px] md:w-[395px] xsm:w-[295px] xsm:h-[295px] " src={Roberto} alt=""></img>
+                <img className=" lg:w-[280px] lg:h-[280px] md:h-[395px] md:w-[395px] xsm:w-[295px] xsm:h-[295px] " src={Dan} alt=""></img>
                 <h1 className="text-[24px] text-[#F4DDB6]">Daniel</h1>
-                <p className="text-[#F4DDB6] text-[18px]">Artist | Chainlink Advocate</p>
-                <p className=' text-left lg:w-[320px] text-white'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                <p className="text-[#F4DDB6] text-[18px]">Front End Developer | Web3</p>
+                <p className=' text-left lg:w-[320px] text-white'>Interested in anything blockchain and music.</p>
                 <div className="flex gap-4"> 
                   <img className=" w-[24px]" src={LinkedIn} alt=""></img>
                   <img className="w-[24px]" src={Twitter} alt=""></img>
