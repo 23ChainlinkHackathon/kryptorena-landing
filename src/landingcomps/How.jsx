@@ -7,12 +7,12 @@ import Icemage from '../img/icemage.png'
 
 const How = () => {
   return (
-    <div id="how" className='xsm:h-[1820px] lg:h-[700px] lg:w-auto w-screen overflow-hidden  bg-[#0F0F0F] flex flex-col gap-5'>
+    <div id="how" className='xsm:h-[1820px]  h-[1800px] lg:h-[700px] lg:w-auto w-screen overflow-hidden  bg-[#0F0F0F] flex flex-col gap-5'>
 
-      <h1 className=" relative lg:text-[47px] xsm:text-[42px] lg:mt-[30px] md:text-[72px] header self-stretch text-[#F4DDB6] drop-shadow-[0_4px_16px_rgba(228,172,78,0.6)]">How it works</h1>
-      <div className="flex lg:flex-row xsm:flex-col gap-10 justify-center items-center text-white"> 
-        <div className='flex xsm:flex-col items-center gap-20 '>
-          <div className='flex xsm:flex-col justify-items-center items-center'>
+      <h1 className=" relative lg:text-[47px] xsm:text-[42px] text-[40px] lg:mt-[30px] mt-[20px] md:text-[72px] header self-stretch text-[#F4DDB6] drop-shadow-[0_4px_16px_rgba(228,172,78,0.6)]">How it works</h1>
+      <div className="flex lg:flex-row flex-col gap-10 justify-center items-center text-white"> 
+        <div className='flex flex-col items-center gap-20 '>
+          <div className='flex flex-col justify-items-center items-center'>
             <img className="h-[48px] w-[80px] " src={Forge} alt="Forge"></img>
             <h1 className="text-[24px] text-[#DFC28E] font-bold">
                Forge your Card
@@ -22,7 +22,7 @@ const How = () => {
             </p>
           </div>
 
-          <div className='flex xsm:flex-col items-center h-[282px]'>
+          <div className='flex flex-col items-center h-[282px]'>
             <img  className="h-[64px] w-[64px] "  src={Sword} alt="sword"></img>
             <h1 className="text-[24px] text-[#DFC28E] font-bold">
                Attack & Defence
@@ -34,11 +34,11 @@ const How = () => {
         </div>
 
        <div className='h-[470px]'>
-          <img  className='xsm:w-[290px] xsm:h-[440px] xl:h-[450px] xl:w-[300px]' src={Icemage} alt="Icemage"></img>  
+          <img  className='w-[290px] h-[440px] xl:h-[450px] xl:w-[300px]' src={Icemage} alt="Icemage"></img>  
        </div>
 
-        <div className='flex relative lg:mt-[-30px]  xsm:flex-col items-center lg:gap-0 xsm:gap-20'>
-          <div className='flex xsm:flex-col items-center gap-5 h-[282px]' >
+        <div className='flex relative lg:mt-[-30px]  flex-col items-center lg:gap-0 xsm:gap-20'>
+          <div className='flex flex-col items-center gap-5 h-[282px]' >
             <img className="h-[37.29px] w-[64px] "  src={Versus} alt="Battle"></img>
             <h1 className="text-[24px] text-[#DFC28E] font-bold">
                Battle
@@ -49,7 +49,7 @@ If your damage score surpasses your opponent's defence score, the surplus power 
             </p>
           </div>
 
-          <div className='flex xsm:flex-col items-center gap-5'>
+          <div className='flex flex-col items-center gap-5'>
               <img className="h-[64px] w-[64px] "  src={Levelup} alt="Level Up"></img>
               <h1 className="text-[24px] text-[#DFC28E] font-bold">
                Upgrade your Card

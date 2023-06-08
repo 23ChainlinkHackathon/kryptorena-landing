@@ -8,11 +8,11 @@ import Sea from '../img/sea.png'
 
 const Tech = () => {
   return (
-    <div id="tech" className=" xl:flex-row xl:gap-[120px] xl:items-center overflow-hidden lg:w-auto w-screen xl:justify-center md:h-[950px] xl:h-[631.67px] h-[900px] lg:h-[600px] md:bg-[url('./img/techmd.png')] xl:bg-[url('./img/techxl.png')] xsm:bg-[url('./img/techmob1.png')] lg:bg-[url('./img/techxl.png')] lg:gap-0 lg:space-x-[-10px] bg-cover xsm:flex-col flex items-center gap-6 justify-center">
-      <div>  <h1 className=" header relative lg:top-[-30px] xl:top-0 items-center justify-center md:text-[48px] xsm:text-[32px] self-stretch text-[#F4DDB6] drop-shadow-[0_4px_16px_rgba(228,172,78,0.6)]">Technologies Used</h1>
+    <div id="tech" className=" xl:flex-row xl:gap-[120px] xl:items-center overflow-hidden lg:w-auto w-screen xl:justify-center md:h-[950px] xl:h-[631.67px] h-[900px] lg:h-[600px] md:bg-[url('./img/techmd.png')] xl:bg-[url('./img/techxl.png')] bg-[url('./img/techmob1.png')] lg:bg-[url('./img/techxl.png')] lg:gap-0 lg:space-x-[-10px] bg-cover flex-col flex items-center gap-6 justify-center">
+      <div>  <h1 className=" header relative lg:top-[-30px] xl:top-0 items-center justify-center md:text-[48px] xsm:text-[32px] text-[30px] self-stretch text-[#F4DDB6] drop-shadow-[0_4px_16px_rgba(228,172,78,0.6)]">Technologies Used</h1>
  </div>
           
-      <div className = "flex xsm:flex-col gap-5 lg:flex-row">
+      <div className = "flex flex-col gap-5 lg:flex-row">
           <div className="flex-col gap-3 flex ">
               
             <div className ="bg-[#191510] h-[144px] w-[300px] ring-1 ring-[#F4DDB6] rounded-[8px] flex flex-col items-center justify-center">
