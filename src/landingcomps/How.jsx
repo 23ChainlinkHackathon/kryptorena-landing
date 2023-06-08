@@ -14,7 +14,7 @@ const How = () => {
         <div className='flex xsm:flex-col items-center gap-20 '>
           <div className='flex xsm:flex-col justify-items-center items-center'>
             <img className="h-[48px] w-[80px] " src={Forge} alt="Forge"></img>
-            <h1 className="text-[24px] font-bold">
+            <h1 className="text-[24px] text-[#DFC28E] font-bold">
                Forge your Card
             </h1>
             <p className=' lg:text-left relative self-stretch md:text-[16px] leading-[24px] md:text-center text-left h-[72px] w-[240px]'>
@@ -24,7 +24,7 @@ const How = () => {
 
           <div className='flex xsm:flex-col items-center h-[282px]'>
             <img  className="h-[64px] w-[64px] "  src={Sword} alt="sword"></img>
-            <h1 className="text-[24px] font-bold">
+            <h1 className="text-[24px] text-[#DFC28E] font-bold">
                Attack & Defence
             </h1>
             <p className='lg:text-left relative self-stretch leading-[24px] md:text-[16px] md:text-center text-left h-[72px] w-[240px]'>
@@ -40,7 +40,7 @@ const How = () => {
         <div className='flex relative lg:mt-[-30px]  xsm:flex-col items-center lg:gap-0 xsm:gap-20'>
           <div className='flex xsm:flex-col items-center gap-5 h-[282px]' >
             <img className="h-[37.29px] w-[64px] "  src={Versus} alt="Battle"></img>
-            <h1 className="text-[24px] font-bold">
+            <h1 className="text-[24px] text-[#DFC28E] font-bold">
                Battle
             </h1>
             <p className='lg:text-left relative self-stretch md:text-[16px] leading-[24px] md:text-center text-left h-[72px] w-[240px]'>
@@ -51,7 +51,7 @@ If your damage score surpasses your opponent's defence score, the surplus power 
 
           <div className='flex xsm:flex-col items-center gap-5'>
               <img className="h-[64px] w-[64px] "  src={Levelup} alt="Level Up"></img>
-              <h1 className="text-[24px] font-bold">
+              <h1 className="text-[24px] text-[#DFC28E] font-bold">
                Upgrade your Card
             </h1>
             <p className='relative lg:text-left self-stretch md:text-[16px] leading-[24px] md:text-center text-left h-[72px] w-[240px]'>

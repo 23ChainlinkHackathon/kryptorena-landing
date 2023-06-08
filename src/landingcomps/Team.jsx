@@ -19,7 +19,7 @@ const Team = () => {
             <div className=" relative xsm:h-[510px] lg:h-[564px] xsm:w-[295px] lg:w-[394.67px] gap-3 flex xsm:flex-col items-start justify-center">
               <img className=" relative md:h-[395px] lg:w-[280px] lg:h-[280px] md:w-[395px] xsm:w-[295px] xsm:h-[295px] " src={Balendu} alt=""></img>
               <h1 className="text-[24px] text-[#F4DDB6]">Balendu</h1>
-              <p className="text-[#F4DDB6] text-[18px]">Full Stack Developer</p>
+              <p className="text-[#F4DDB6] text-[18px]">Full Stack Developer | Chainlink Advocate</p>
               <p className='text-white text-left lg:w-[280px]'>Young, Passionate, Anime Lover, Gamer.</p>
               <div className="flex gap-4"> 
                 <img className=" w-[24px]" src={LinkedIn} alt=""></img>
@@ -30,7 +30,7 @@ const Team = () => {
             <div className=" relative xsm:h-[510px] lg:h-[564px] xl:pt-[50px] xsm:w-[295px] lg:w-[394.67px] gap-3 flex xsm:flex-col items-start justify-center">
               <img className=" lg:w-[280px] lg:h-[280px]  md:h-[395px] md:w-[395px] xsm:w-[295px] xsm:h-[295px] " src={Roberto} alt=""></img>
                 <h1 className="text-[24px] text-[#F4DDB6]">Roberto</h1>
-                <p className="text-[#F4DDB6] text-[18px]">Chainlink Advocate</p>
+                <p className="text-[#F4DDB6] text-[18px]"> Backend Developer | Chainlink Advocate</p>
                 <p className=' text-white lg:w-[300px] text-left'>Experienced Solidity engineer and blockchain enthusiast. Chainlink community advocate, passionate about Web3 and love building products!</p>
                 <div className="flex gap-4"> 
                   <img className=" w-[24px]" src={LinkedIn} alt=""></img>
@@ -55,7 +55,7 @@ const Team = () => {
           <div className=" relative xsm:h-[510px] lg:h-[564px] xsm:w-[295px] lg:w-[394.67px] gap-3 flex xsm:flex-col items-start justify-center">
                 <img className="  lg:w-[280px] lg:h-[280px] md:h-[395px] md:w-[395px] xsm:w-[295px] xsm:h-[295px] " src={Eric} alt=""></img>
                 <h1 className="text-[24px] text-[#F4DDB6]">Eric</h1>
-                <p className="text-[#F4DDB6] text-[18px]">UX Designer</p>
+                <p className="text-[#F4DDB6] text-[18px]">UX Designer | Chainlink Advocate </p>
                 <p className=' text-left lg:w-[305px] text-white'>Always learning, always growing. Seeking to delight users with human-centric products that pushes humanity forward.</p>
                 <div className="flex gap-4"> 
                   <img className=" w-[24px]" src={LinkedIn} alt=""></img>
@@ -63,7 +63,7 @@ const Team = () => {
                 </div>
           </div>
                
-          <div className=" relative xsm:h-[510px] lg:h-[564px] xsm:w-[295px] lg:w-[394.67px] gap-3 flex xsm:flex-col items-start justify-center" >
+          <div className=" relative xsm:h-[510px] lg:h-[564px] xl:pb-[20px] xsm:w-[295px] lg:w-[394.67px] gap-3 flex xsm:flex-col items-start justify-center" >
                 <img className=" lg:w-[280px] lg:h-[280px] md:h-[395px] md:w-[395px] xsm:w-[295px] xsm:h-[295px] " src={Dan} alt=""></img>
                 <h1 className="text-[24px] text-[#F4DDB6]">Daniel</h1>
                 <p className="text-[#F4DDB6] text-[18px]">Front End Developer | Web3</p>
