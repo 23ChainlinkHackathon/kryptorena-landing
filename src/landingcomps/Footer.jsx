@@ -4,9 +4,9 @@ import Content from '../img/Content.png'
 const Footer = () => {
   return (
     <div id="footer" className="lg:w-auto w-screen overflow-hidden flex items-center justify-center bg-black ">
-        <div className="xsm:h-[300PX] md:h-[210px]  divide-y-[1px] gap-7 md:w-[800px] divide-[#A8916B] flex flex-col">
+        <div className="h-[300PX] md:h-[210px]  divide-y-[1px] gap-7 md:w-[800px] divide-[#A8916B] flex flex-col">
         <div className="divide-y-[1px]">
-                <ul className="xsm:flex  md:gap-8 md:flex-row text-[20px] relative top-3 xsm:flex-col justify-center items-center text-[#FCF7ED]">
+                <ul className="flex  md:gap-8 md:flex-row text-[20px] relative top-3 flex-col justify-center items-center text-[#FCF7ED]">
                 <li>
                 What is Kryptorena
                 </li>
@@ -27,7 +27,7 @@ const Footer = () => {
 
         <div className=" flex xsm:flex-col xsm:gap-4  md:flex-row  md:flex relative   md:justify-center text-[#FCF7ED]">
             <div className="flex flex-col justify-center relative md:left-[-150px] xsm:top-5 items-center">
-                <img src={Content} alt="" className="xsm:h-[24px] xsm:w-[48px] relative "></img>
+                <img src={Content} alt="" className="h-[24px] w-[48px] relative "></img>
                 <p>Made with ❤️ by Kryptorena team</p>
             </div>
 

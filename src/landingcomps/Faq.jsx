@@ -29,16 +29,16 @@ const Faq = (props) => {
   ];
 
   return (
-    <div id="faq" className="lg:w-auto w-screen overflow-hidden justify-center xl:h-[600px] items-center bg-[#000000CC]  bg-cover max-h-[1200px] min-h-[500px] flex flex-col gap-5 ">
+    <div id="faq" className="lg:w-auto w-screen overflow-hidden justify-center xl:h-[600px] items-center bg-[#000000CC]  bg-cover max-h-[1200px] min-h-[438px] flex flex-col gap-5 ">
         <h1 className=" header relative lg:text-[48px] xsm:text-[32px] self-stretch lg:text-center xl:left-[420px] lg:left-[70px] lg:w-[480px] text-[#F4DDB6] drop-shadow-[0_4px_16px_rgba(228,172,78,0.6)]">Frequently Asked Questions</h1>
       <div className=" flex justify-center items-center relative md:top-[50px]">
       <ul className="xsm:text-[24px] text-white  divide-[#DFC28E] lg:w-[900px] xl:w-[1200px] divide-y-[1px] justify-center items-center ">
         {questions.map((question, index) => (
           
           <div className=''>
-            <li key={index} className="flex items-center justify-center xsm:w-[300px] gap-7">
+            <li key={index} className="flex items-center justify-center w-[290px] xsm:w-[300px] gap-7">
             <div className=" ">
-              <p key={index} className="xsm:text-[24px] text-white divide-y divide-[#DFC28E]">{question}</p>
+              <p key={index} className=" text-[20px] xsm:text-[24px] text-white divide-y divide-[#DFC28E]">{question}</p>
               {view === index && (
                 <div key={index} className="max-w-[300px] max-h-[200px] overflow-hidden">
                   <div
@@ -55,7 +55,7 @@ const Faq = (props) => {
               onClick={() => toggleAnswer(index)}
               src={Qopen}
               alt="view"
-              className={` ${question === ""? "hidden":"" } lg:relative xl:left-[900px] lg:left-[600px] ${view === index ? 'hidden' : 'visible'} xsm:h-[10px] xsm:w-[15px]`}
+              className={` ${question === ""? "hidden":"" } lg:relative xl:left-[900px] lg:left-[600px] ${view === index ? 'hidden' : 'visible'} w-[13px] h-[7px]  xsm:h-[10px] xsm:w-[15px]`}
             ></img>
             {view === index && (
               <button onClick={() => toggleAnswer(index)} className="lg:relative lg:left-[600px] visible">X</button>
