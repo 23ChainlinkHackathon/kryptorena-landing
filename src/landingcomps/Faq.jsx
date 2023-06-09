@@ -10,21 +10,20 @@ const Faq = (props) => {
 
   const questions = [
     "",
-    "Question text goes here",
-    "Question text goes here",
-    "Question text goes here",
-    "Question text goes here",
-    "Question text goes here",
+    " How is Chainlink VRF used in Kryptorena? ",
+    "How is Chainlink Automation used? ",
+    "How is Kryptorena helping bridge players from Web2 to Web3?",
+    "What are the future plans for Kryptorena?",
     ""
   ];
 
   const answers = [
     "",
-    "Answer here",
-    "Answer here fsdghjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjg",
-    "Answer here",
-    "Answer here",
-    "Answer here",
+    "Chainlink VRF serves as a reliable mechanism for ensuring the authenticity of randomness during the generation and modification of users' attack and defense points, as well as for guaranteeing the issuance of a unique and unpredictable non-fungible token (NFT) upon user registration.",
+    "Chainlink Automation in Kryptorena is currently under development and will be implemented in the near future. Its primary objective is to facilitate the detection of game rounds that have become 'stuck' and to assist in advancing the game by enforcing a change of turn. For instance, if a player fails to select an action within a specified timeframe, Chainlink Automation will intervene, advancing the game and resulting in a forfeiture for the non-responsive player.",
+    "Kryptorena plays a crucial role in bridging players from Web2 to Web3 by providing a seamless transition and introducing them to the world of decentralized gaming. By leveraging the power of blockchain technology and integrating various Web3 components like Chainlink's VRF and soon Automation, Kryptorena enables players to experience the benefits of a decentralized ecosystem.",
+    "Our team is looking forward to keep developing and improving Kryptorena in many ways. We plan on enhancing the user experience and adding more security and functionality. Furthermore we are looking for funding so that we may even further increase our reach in the community and the improve the game overall.",
+    
     ""
   ];
 
@@ -37,17 +36,14 @@ const Faq = (props) => {
           
           <div className=''>
             <li key={index} className="flex items-center justify-center w-[290px] xsm:w-[300px] gap-7">
-            <div className=" ">
-              <p key={index} className=" text-[20px] xsm:text-[24px] text-white divide-y divide-[#DFC28E]">{question}</p>
+            <div className=" relative  lg:text-left xl:left-[230px]">
+              <p key={index} className={` ${view === index ? "opacity-10 relative bg-slate-600 left-[250px]":""} lg:w-[700px] text-[20px] xsm:text-[24px] text-white divide-y divide-[#DFC28E]`}>{question}</p>
               {view === index && (
-                <div key={index} className="max-w-[300px] max-h-[200px] overflow-hidden">
-                  <div
-                    className="max-w-[300px] relative"
-                    style={{ maxHeight: '200px', overflow: 'auto', paddingRight: '12px' }}
-                  >
-                    {answers[index]}
-                  </div>
-                </div>
+                  
+                    <p key={index} className={ ` ${view === index? "lg:left-[230px]  text-[#f5d8a6]": ""} relative left-[230px] w-[1200px]`}>{answers[index]}</p>
+                    
+      
+                
               )}
             </div>
             <img
@@ -55,10 +51,10 @@ const Faq = (props) => {
               onClick={() => toggleAnswer(index)}
               src={Qopen}
               alt="view"
-              className={` ${question === ""? "hidden":"" } lg:relative xl:left-[900px] lg:left-[600px] ${view === index ? 'hidden' : 'visible'} w-[13px] h-[7px]  xsm:h-[10px] xsm:w-[15px]`}
+              className={` ${question === ""? "hidden":"" } lg:relative  lg:left-[670px] ${view === index ? 'hidden' : 'visible'} w-[13px] h-[7px]  xsm:h-[10px] xsm:w-[15px]`}
             ></img>
             {view === index && (
-              <button onClick={() => toggleAnswer(index)} className="lg:relative lg:left-[600px] visible">X</button>
+              <button onClick={() => toggleAnswer(index)} className="lg:relative lg:left-[420px] visible">X</button>
             )}
           </li>
           </div>
