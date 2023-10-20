@@ -13,8 +13,8 @@ const Nav = () => {
           </div>
          
           <div>
-              <ul className="hidden lg:flex text-[14px] text-[#F4DDB6]  gap-5 ">
-                  <li>
+              <ul className="hidden lg:flex cursor-pointer text-[14px] text-[#F4DDB6]  gap-5 ">
+                  <li className="cursor-pointer" >
                     <ScrollLink to="about" smooth={true} duration={500}>
                       What is Kryptorena
                     </ScrollLink>
